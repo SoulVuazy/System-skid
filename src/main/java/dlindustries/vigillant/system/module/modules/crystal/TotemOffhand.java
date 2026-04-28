@@ -33,7 +33,7 @@ public final class TotemOffhand extends Module implements TickListener {
     private double currentJitterFactor = 1.0;
 
     public TotemOffhand() {
-        super("Auto offhand", "bannable", -1, Category.CRYSTAL);
+        super("Vuazy toteming", "ud", -1, Category.CRYSTAL);
         addSettings(minSlotDelay, maxSlotDelay, offhandDelay, dynamicJitter, switchBack);
     }
 
